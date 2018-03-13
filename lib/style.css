@@ -1,11 +1,13 @@
 body {
-	margin-top: 51px;
 	background-color: #d9dce0;
 }
 
 #id--the-pad-holder {
 	height: 580px;
-	margin: 100px auto;
+	margin-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
 	overflow: hidden;
 	width: 675px;
 }
