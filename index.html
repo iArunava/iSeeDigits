@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>  iSeeDigits </title>
+
+  <meta charset="utf-8">
+  <meta name="description" content="A Simple Digit Recognizer">
+  <meta name="keywords" content="arunava, deep learning, neural network, digit, Recognizer">
+  <meta name="author" content="Arunava">
+  <meta name="viewport" content="width=device-width initial-scale=1.0">
+
+  <script src="https://use.fontawesome.com/7fe04d222b.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+ 	<link rel="stylesheet" type="text/css" href="./lib/style.css">
+ 	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+  <body>
+
+
+      <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#adaNav">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand html--font-20" href="#"> iSeeDigits </a>
+          </div>
+          <div class="collapse navbar-collapse" id="adaNav">
+            <ul class="nav navbar-nav navbar-right">
+              <li id="li_home" class="active html--font-18"><a href="#"> Home </a></li>
+              <li id="li--clearpad" class="html--font-18"><a href="#"> Clear Pad </a></li>
+
+	      <li id="id--color-chosen-representator" class="dropdown">
+    		  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i id="id--chosen-color-display" class="fa fa-circle" aria-hidden="true"></i>&nbsp;&nbsp; Color &nbsp;&nbsp;<span class="caret"></span></a>
+    		  <ul class="dropdown-menu">
+    		    <li><a href="#"> Red  &nbsp;&nbsp;<i class="fa fa-circle html--color-red" aria-hidden="true"></i>&nbsp;&nbsp;<span class="glyphicon glyphicon-ok html--display-none-color-chosen" aria-hidden="true"></span></a></li>
+    		    <li><a href="#"> Blue  &nbsp;&nbsp;<i class="fa fa-circle html--color-blue" aria-hidden="true"></i>&nbsp;&nbsp;<span class="glyphicon glyphicon-ok html--display-none-color-chosen" aria-hidden="true"></span></a></li>
+    		    <li><a href="#"> Green  &nbsp;&nbsp;<i class="fa fa-circle html--color-green" aria-hidden="true"></i>&nbsp;&nbsp;<span class="glyphicon glyphicon-ok html--display-none-color-chosen" aria-hidden="true"></span></a></li>
+    		    <li><a href="#"> Yellow &nbsp;&nbsp;<i class="fa fa-circle html--color-yellow" aria-hidden="true"></i>&nbsp;&nbsp;<span class="glyphicon glyphicon-ok html--display-none-color-chosen" aria-hidden="true"></span></a></li>
+    		    <li><a href="#"> Gray &nbsp;&nbsp;<i class="fa fa-circle html--color-gray" aria-hidden="true"></i>&nbsp;&nbsp;<span class="glyphicon glyphicon-ok html--display-none-color-chosen" aria-hidden="true"></span></a></li>
+    		    <li><a href="#"> Violet &nbsp;&nbsp;<i class="fa fa-circle html--color-violet" aria-hidden="true"></i>&nbsp;&nbsp;<span class="glyphicon glyphicon-ok html--display-none-color-chosen" aria-hidden="true"></span></a></li>
+    		    <li role="separator" class="divider"></li>
+    		    <li><a href="#"> RainBow &nbsp;&nbsp;<i class="html--color-rainbow" aria-hidden="true"></i>&nbsp;&nbsp;<span class="glyphicon glyphicon-ok html--display-none-color-chosen" aria-hidden="true"></span></a></li>
+  		  </ul>
+  		</li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div class="container">
+
+      <div id="id--the-pad-holder" class="row center-block">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+		<div id="id--the-pad-delimiters">
+			<div class="div--center-in-div" id="id--the-pad">
+			</div>
+		</div>
+        </div>
+      </div>
+   </div>
+	<script src="./lib/script.js"></script>
+  </body>
+</html>

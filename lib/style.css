@@ -1,0 +1,71 @@
+body {
+	margin-top: 51px;
+	background-color: #d9dce0;
+}
+
+#id--the-pad-holder {
+	height: 580px;
+	margin: 100px auto;
+	overflow: hidden;
+	width: 675px;
+}
+
+.html--div-pad-row {
+	display: inline-block;
+}
+
+.html--div-block {
+	height: 50px;
+	width: 50px;
+	background: white;
+	border: 1px solid transparent;
+	border-radius: 0%;
+	transition: all 0.3s;
+}
+
+.html--float-left {
+	float: left;
+}
+
+.div--center-in-div {
+	margin: 0 auto;
+	width: 50%;
+}
+
+#id--the-pad {
+	width: 90%;
+	border:5px solid black;
+	border-radius: 5px;
+}
+
+.html--display-none, .html--display-none-color-chosen {
+	display: none;
+}
+
+.html--display-inline-block, .html--display-inline-block-color-chosen {
+	display: inline-block;
+}
+
+.html--color-green {
+	color: #a3ff66;
+}
+
+.html--color-violet {
+	color: #7759ff;
+}
+
+.html--color-yellow {
+	color: #f1ff59;
+}
+
+.html--color-red {
+	color: #fc6041;
+}
+
+.html--color-blue {
+	color: #639fff;
+}
+
+.html--color-gray {
+	color: #b9bbbf;
+}
