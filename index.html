@@ -14,7 +14,7 @@
  	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src='./../dependencies/math.js'></script>
+  <script src='./dependencies/math.js'></script>
 </head>
 
   <body>
@@ -67,12 +67,13 @@
       <div class='row'>
         <div class='col-12'>
           <div class='div--center-in-div'>
-            <button type="button" class="btn btn-primary"> Predict </button>
+            <button type="button" id="id--predict-btn" class="btn btn-primary"> Predict </button>
             <h4> The Predicted Digit is: <span id='id--prediction'></span> </h4>
           </div>
         </div>
       </div>
    </div>
+   <script src='./lib/model/digits_model.js'></script>
   <script src='./lib/nn.js'></script>
 	<script src="./lib/script.js"></script>
   </body>
