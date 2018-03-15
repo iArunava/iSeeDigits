@@ -33,7 +33,7 @@
           <div class="collapse navbar-collapse" id="adaNav">
             <ul class="nav navbar-nav navbar-right">
               <li id="li_home" class="active html--font-18"><a href="#"> Home </a></li>
-              <li id="li--clearpad" class="html--font-18"><a href="#"> Clear Pad </a></li>
+              <li id="li--clearpad" class="active html--font-18"><a href="#"> Clear Pad </a></li>
 
 	      <li class="dropdown">
     		  <a class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp; Data &nbsp;&nbsp;<span class="caret"></span></a>
@@ -76,7 +76,10 @@
         <div class='col-12'>
           <div class='div--center-in-div'>
             <button type="button" id="id--predict-btn" class="btn btn-primary"> Predict </button>
-            <h4> The Predicted Digit is: <span id='id--prediction'></span> </h4>
+            <button type="button" id="id--correct-match" class="btn btn-success"> Correct Match </button>
+            <button type="button" id="id--incorrect-match" class="btn btn-danger"> Incorrect! </button>
+            <input class='class--inline' type='number' id='id--target-value' max='9' min='0'>
+            <h3> The Predicted Digit is: <span id='id--prediction'></span> </h3>
           </div>
         </div>
       </div>
