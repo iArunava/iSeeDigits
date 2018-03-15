@@ -1,6 +1,6 @@
 # iSeeDigits
 
-A Simple Digit Recognizer. 
+A Simple Handwritten Digit Recognizer. 
 
 # How does it work?
 
